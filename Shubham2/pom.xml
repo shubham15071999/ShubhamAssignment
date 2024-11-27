@@ -1,0 +1,27 @@
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Maven2</groupId>
+  <artifactId>Shubham2</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+   <dependencies>
+    <!-- TestNG Dependency -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.7.1</version>
+    </dependency>
+    <!-- Selenium Dependency -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.26.0</version>  <!-- Use the latest version -->
+    </dependency>
+
+    <!-- WebDriverManager Dependency -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.9.2</version>  <!-- Use the latest version -->
+    </dependency>
+  </dependencies>
+</project>
